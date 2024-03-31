@@ -21,8 +21,19 @@
     color: #000000e8;
 }
 
+.star{
+    width: 20px;
+    height: 20px;
+}
+
+.aa{
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
 .col1-2{
     margin-top: 25px;
+    margin-left: -40px;
 }
 
 .col1-3 h1{
@@ -107,4 +118,8 @@
     margin-left: 30px;
     margin-right: 30px;
     margin-top: 30px;
+}
+
+.fsize{
+    font-size: 20px;
 }

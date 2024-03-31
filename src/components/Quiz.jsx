@@ -113,7 +113,7 @@ const Quiz = () => {
                                     </Col>
                                 </Row>
                             </Col>
-                            <Col span={5}><img className='medalpic' src="images/profilePic.png" alt="medalpic"/></Col>
+                            <Col span={5}><img className='medalpic' src="images/Image2.svg" alt="medalpic"/></Col>
                         </Row>
                         <div className='f-result'>
                             <Row>

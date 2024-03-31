@@ -23,13 +23,24 @@ const App = () => (
                 </Row>
             </Col>
             <Col className='col1-2' span={8}>
-                <Flex gap={'small'} vertical>
-                    <Progress percent={60} status="active" strokeColor={'#ffd53d'} trailColor='rgb(187, 187, 187)'/>
-                    <Progress percent={40} status="active" strokeColor={'#ffd53d'} trailColor='rgb(187, 187, 187)'/>
-                    <Progress percent={55} status="active" strokeColor={'#ffd53d'} trailColor='rgb(187, 187, 187)'/>
-                    <Progress percent={20} status="active" strokeColor={'#ffd53d'} trailColor='rgb(187, 187, 187)'/>
-                    <Progress percent={15} status="active" strokeColor={'#ffd53d'} trailColor='rgb(187, 187, 187)'/>
-                </Flex>
+                    <Row>
+                        <Col span={6}>
+                            <Row className='aa'>1<img className='star' src="images/Star.svg" alt="star"/></Row>
+                            <Row className='aa'>2<img className='star' src="images/Star.svg" alt="star"/></Row>
+                            <Row className='aa'>3<img className='star' src="images/Star.svg" alt="star"/></Row>
+                            <Row className='aa'>4<img className='star' src="images/Star.svg" alt="star"/></Row>
+                            <Row className='aa'>5<img className='star' src="images/Star.svg" alt="star"/></Row>
+                        </Col>
+                        <Col span={18}>
+                        <Flex gap={'small'} vertical>
+                            <Progress percent={60} status="active" strokeColor={'#ffd53d'} trailColor='rgb(187, 187, 187)'/>
+                            <Progress percent={60} status="active" strokeColor={'#ffd53d'} trailColor='rgb(187, 187, 187)'/>
+                            <Progress percent={60} status="active" strokeColor={'#ffd53d'} trailColor='rgb(187, 187, 187)'/>
+                            <Progress percent={60} status="active" strokeColor={'#ffd53d'} trailColor='rgb(187, 187, 187)'/>
+                            <Progress percent={60} status="active" strokeColor={'#ffd53d'} trailColor='rgb(187, 187, 187)'/>
+                        </Flex>
+                        </Col>
+                    </Row>
             </Col>
             <Col className='col1-3' span={8}>
                 <Row>
